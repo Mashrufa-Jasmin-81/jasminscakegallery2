@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="order.js" defer></script>
+</head>
+<body>
+
+    <h2>Place Your Order</h2>
+
+    <form id="order-form">
+        <label>Name:</label>
+        <input type="text" name="name" required>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <label>Phone Number:</label>
+        <input type="tel" name="phone" required>
+
+        <label>Address:</label>
+        <input type="text" name="address" required>
+
+        <label>Cake Code:</label>
+        <input type="text" name="cakeCode" id="cakeCode" required>
+
+        <label>Cake Weight:</label>
+        <select name="weight">
+            <option>0.5 Pound</option>
+            <option>1 Pound</option>
+            <option>2 Pounds</option>
+            <option>3 Pounds</option>
+            <option>4 Pounds</option>
+            <option>5 Pounds</option>
+        </select>
+
+        <button type="submit">Place Order</button>
+    </form>
+
+    <p>After submitting, you will be redirected to Gmail. Please send the email manually.</p>
+
+</body>
+</html>

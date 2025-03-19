@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jesmin's Cake Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Header with Logo -->
+    <header>
+        <img src="logo.png" alt="Jasmin's Cake Gallery Logo" id="logo">
+        <h1>Jesmin's Cake Gallery</h1>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h2>Delicious Cakes Delivered to Your Doorstep</h2>
+        <a href="#catalog" class="btn">Order Now</a>
+    </section>
+
+    <!-- Cake Catalog -->
+    <section id="catalog">
+        <h2>Our Cakes</h2>
+        <div class="gallery">
+            <div class="cake-item">
+                <img src="cake1.jpg" alt="Chocolate Delight">
+                <p><strong>Chocolate Delight</strong></p>
+                <p>Price: BDT 850 per pound</p>
+                <button onclick="orderNow('C001')">Order Now</button>
+            </div>
+            <div class="cake-item">
+                <img src="cake2.jpg" alt="Vanilla Dream">
+                <p><strong>Vanilla Dream</strong></p>
+                <p>Price: BDT 800 per pound</p>
+                <button onclick="orderNow('C002')">Order Now</button>
+            </div>
+            <div class="cake-item">
+                <img src="cake3.jpg" alt="Red Velvet">
+                <p><strong>Red Velvet</strong></p>
+                <p>Price: BDT 900 per pound</p>
+                <button onclick="orderNow('C003')">Order Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <a href="https://wa.me/8801317275736" class="contact-btn">WhatsApp</a>
+        <a href="https://www.facebook.com/profile.php?id=61552069654860" class="contact-btn">Facebook</a>
+        <a href="https://www.instagram.com/jasmins_cake_gallery" class="contact-btn">Instagram</a>
+        <a href="mailto:oreo.ibnat81@gmail.com" class="contact-btn">Email</a>
+    </section>
+
+</body>
+</html>

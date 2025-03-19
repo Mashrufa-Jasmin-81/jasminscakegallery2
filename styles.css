@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ffcccc, #ff99cc);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: pink;
+    padding: 20px;
+}
+
+#logo {
+    width: 100px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+.btn {
+    background: #ff6699;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cake-item {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contact-btn {
+    display: inline-block;
+    background: #ff3399;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Hide Welcome Popup */
+.popup {
+    display: none;
+}
